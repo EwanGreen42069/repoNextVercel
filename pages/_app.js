@@ -1,5 +1,8 @@
 import '../styles/global.css'
+import { ParallaxProvider } from 'react-scroll-parallax'
 
 export default function App({ Component, pageProps }) {
-    return <Component {...pageProps} />;
+    return (<ParallaxProvider scrollAxis='vertical'>
+    <Component {...pageProps} />
+    </ParallaxProvider>)
   }

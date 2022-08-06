@@ -1,15 +1,42 @@
+.body{
+    margin: 0;
+    padding: 0;
+}
+
+.fullScreenPhoto {
+    width: 100%;
+    margin: 0;
+    height: 500px;
+    background-color: #010a31;
+}
+
 .container {
-    max-width: 36rem;
-    padding: 0 1rem;
-    margin: 3rem auto 6rem;
+    position: absolute;
+    margin: 0;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    padding: 0 0;
+    margin: 0 0 0 0;
   }
   
   .header {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: stretch;
   }
   
   .backToHome {
     margin: 3rem 0 0;
   }
+
+  .video {
+    margin:0 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: 100%;
+    height: 100%;
+    z-index: -100;
+    background-size: cover;
+    transition: 1s opacity;
+}
