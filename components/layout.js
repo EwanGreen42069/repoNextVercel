@@ -9,7 +9,7 @@ export const siteTitle = 'Writing Site - Green';
 
 export default function Layout({ children, home }) {
   return (
-    <div className={styles.container}>
+    <div className={`{styles.container} {utilStyles.homeBackground}`}>
       <Head>
         <link rel="icon" href="/favicon.ico" />
         <meta

@@ -52,5 +52,6 @@
   }
 
   .homeBackground {
-      background-color: #010a31;
+      position: "fill";
+    background: linear-gradient(#01153b, #010933);
   }

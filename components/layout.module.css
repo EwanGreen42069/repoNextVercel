@@ -1,17 +1,19 @@
 .body{
     margin: 0;
     padding: 0;
+    position: relative;
+    background: linear-gradient(#01153b, #010933);
+
 }
 
 .fullScreenPhoto {
     width: 100%;
     margin: 0;
     height: 500px;
-    background-color: #010a31;
 }
 
 .container {
-    position: absolute;
+    position: fill;
     margin: 0;
     top: 0px;
     left: 0px;
@@ -31,6 +33,7 @@
   }
 
   .video {
+      position: relative;
     margin:0 0;
     min-width: 100%;
     min-height: 100%;

@@ -6,6 +6,12 @@ body {
     Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   line-height: 1.6;
   font-size: 18px;
+  color: aliceblue;
+  width: auto;
+  background-color: linear-gradient(#01153b, #010933);
+  background-repeat: no-repeat;
+display:fill;
+align-items: center;
 }
 
 * {
@@ -13,11 +19,12 @@ body {
 }
 
 a {
-  color: #0070f3;
   text-decoration: none;
+  color:aliceblue;
 }
 
 a:hover {
+    color:deepskyblue;
   text-decoration: underline;
 }
 
